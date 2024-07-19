@@ -14,4 +14,4 @@ NAME      IMAGE                COMMAND                  SERVICE   CREATED       
 godoc     local/godoc:latest   "godoc -http 0.0.0.0…"   godoc     7 minutes ago   Up 7 minutes   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp
 ```
 
-Go to [http://localhost:8080/pkg/](http://localhost:8080/pkg/){:target="_blank"}, to access the documentation page.
+Go to [http://localhost:8080/pkg/](http://localhost:8080/pkg/), to access the documentation page.
