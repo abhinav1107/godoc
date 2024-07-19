@@ -1,0 +1,8 @@
+services:
+  godoc:
+    restart: unless-stopped
+    build: .
+    image: local/godoc:latest
+    container_name: godoc
+    ports:
+      - "8080:8080"
